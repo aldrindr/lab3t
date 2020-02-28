@@ -17,8 +17,8 @@ ABS		SPACE	4					; allocates 4 uninitialized bytes in RAM for ABS
 		; Code
 		AREA    |.text|, CODE, READONLY, ALIGN=2	; code in flash ROM
 		EXPORT  Start				; export public function "start" for use elsewhere
-NUM1   	DCD   	-1					; 32-bit constant data NUM1 = -1
-NUM2	DCD		2					; 32-bit constant data NUM2 = 2
+NUM1   	DCD   	-100				; 32-bit constant data NUM1 = -1
+NUM2	DCD		2111					; 32-bit constant data NUM2 = 2
 ;-------End of Assembler Directives----------
 
 
